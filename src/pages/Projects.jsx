@@ -1,35 +1,33 @@
-import React from 'react';
-import Card from '../components/Card';
+import React from "react";
+import Card from "../components/Card";
 
 function Projects() {
-    const data = [
-        {
-            title: "project1",
-            image: "/images/Food.jpg"
-        },
-        {
-            title: "project2",
-            image: "/images/Food.jpg"
-        },
-        {
-            title: "project3",
-            image: "/images/Food.jpg"
-        }
-    ]
-    return (
-        <>
-        <div>
-            <h1>My Projects</h1>
-            <div class="d-flex">
-            {
-                data.map(project => {
-                    return <Card image={project.image} title={project.title} />
-                })
-            }
-            </div>
+  const data = [
+    {
+      title: "My Relaxing Planner",
+      image: "/images/Food.jpg",
+    },
+    {
+      title: "Ingredient Alchemy",
+      image: "/images/Food.jpg",
+    },
+    {
+      title: "Console Finances",
+      image: "/images/Food.jpg",
+    },
+  ];
+  return (
+    <>
+      <div>
+        <h1>My Projects</h1>
+        <div class="d-flex justify-content-center">
+            {data.map((project) => {
+              return <Card image={project.image} title={project.title} />;
+            })}
         </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
-export default Projects
+export default Projects;

@@ -12,14 +12,14 @@ function Card(props) {
     >
       {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
     <h1>{props.title}</h1>
-      <CardBtn
+      {/* <CardBtn
         onClick={props.handleBtnClick}
         data-value="pass"
       />
       <CardBtn
         onClick={props.handleBtnClick}
         data-value="pick"
-      />
+      /> */}
     </div>
   );
 }

@@ -1,0 +1,38 @@
+/* @media only screen and (max-width: 500px) {
+
+    #selfimage {
+        width: 20%;
+        height: auto;
+    }
+} */
+
+@media (max-width: 576px) { 
+    #selfimage {
+        width: 70%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    #selfimage {
+        width: 30%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    #selfimage {
+        width: 35%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #selfimage {
+        width: 30%;
+        height: auto;
+    }
+}
