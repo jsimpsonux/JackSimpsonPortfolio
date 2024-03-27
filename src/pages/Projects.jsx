@@ -20,7 +20,7 @@ function Projects() {
     <>
       <div>
         <h1>My Projects</h1>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center flex-lg-row flex-sm-column flex-xs-column">
             {data.map((project) => {
               return <Card image={project.image} title={project.title} />;
             })}

@@ -10,10 +10,10 @@ function About() {
   return (
     <>
     <div class="bg-dark bg-opacity-25 ">
-      <Stack gap={3} class="col-md-5 mx-auto">
-        <h1 class="p-4">Welcome!</h1>
+      <Stack gap={3} class="col-md-3 col-sm-4 col-lg-3 col-xl-3 col-xs-2 mx-auto">
+        <h1 class="p-4">Hi, I am Jack.</h1>
         <div class="p-4">
-        <Image src="/images/Myself.png" id="selfimage" thumbnail height="auto" />
+        <Image src="/images/Myself.png" id="selfimage" thumbnail height="auto" class="image-expand" />
         </div>
         <div class="p-4">
         <Button href="/projects" variant="primary">Take a peek</Button>
