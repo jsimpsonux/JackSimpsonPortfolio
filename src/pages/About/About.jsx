@@ -11,14 +11,17 @@ import "./style.css";
 function About() {
   return (
     <>
-    <Container fluid className="bg-dark bg-opacity-25">
-      <Row className="align-items-center">
-          <Col md={{ span: 5, offset: 1 }}>
-            <p class="text-start fs-1">Hello, I'm Jack,
+    <Container fluid className="d-flex align-items-center" style={{backgroundColor: "#fdf5df"}}>
+      <Row className="">
+          <Col lg={4} className="ms-4">
+            <p class="text-start fs-1" style={{color: "#4e8098"}}>Hello, I'm Jack,
             <br /> a friendly web developer. </p>
-          <Button href="/projects" variant="primary" className="float-start">
+          <Button href="/projects" variant="link" className="text-start float-start" style={{color: "#4e8098"}}>
             Take a peek
           </Button>
+          </Col>
+          <Col className="ml-auto">
+          <img src="./src/assets/JackSimpson.png"  className="float-end" thumbnail />
           </Col>
       </Row>
       {/* <div class=""></div> */}

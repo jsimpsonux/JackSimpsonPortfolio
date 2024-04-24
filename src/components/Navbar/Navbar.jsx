@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-// import './style.css';
+import './style.css';
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "#fdf5df"}}>
       <div class="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/" style={{color: "#4e8098"}}>
           Jack Simpson
         </Link>
         <button
@@ -29,7 +29,7 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
-                }
+                } style={{color: "#4e8098"}}
               >
                 About
               </NavLink>
@@ -39,7 +39,7 @@ function Navbar() {
                 to="/projects"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
-                }
+                } style={{color: "#4e8098"}}
               >
                 Projects
               </NavLink>
