@@ -6,7 +6,7 @@ import './style.css';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "#fdf5df"}}>
-      <div class="container-fluid">
+      <div class="container-fluid ms-4">
         <Link className="navbar-brand" to="/" style={{color: "#4e8098"}}>
           Jack Simpson
         </Link>

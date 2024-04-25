@@ -7,19 +7,19 @@ function Projects() {
   const data = [
     {
       title: "My Relaxing Planner",
-      image: "/images/Food.jpg",
+      image: "src/assets/relax.png",
       github: "https://github.com/jsimpsonux/my-relaxing-planner",
       link: "https://jsimpsonux.github.io/my-relaxing-planner/",
     },
     {
       title: "Ingredient Alchemy",
-      image: "/images/Food.jpg",
+      image: "src/assets/ingredient.png",
       github: "https://github.com/jsimpsonux/Ingredient-Alchemy",
       link: "https://jsimpsonux.github.io/Ingredient-Alchemy/",
     },
     {
       title: "Crypto-Mock",
-      image: "/images/Food.jpg",
+      image: "src/assets/crypto.png",
       github: "https://github.com/jsimpsonux/Crypto-Mock",
       link: "https://resplendent-gumption-b3f3fe.netlify.app/",
     },
