@@ -43,7 +43,10 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
+Container {
+    width: 100%;
+}

@@ -16,8 +16,8 @@ function About() {
         className="d-flex align-items-center"
         style={{ backgroundColor: "#fdf5df" }}
       >
-        <Row className="align-items-center">
-          <Col lg={4} className="ms-5">
+        <Row className="align-items-center" style={{ width: "100%" }}>
+          <Col lg={true} className="ms-5">
             <div class="">
             <p class="text-start fs-1" style={{ color: "#4e8098" }}>
               Hello, I'm Jack,
@@ -33,10 +33,11 @@ function About() {
             </Button>
             </div>
           </Col>
-          <Col className="">
+          <Col lg={true}></Col>
+          <Col lg={true} className="p-2">
             <img
-              src="./src/assets/JackSimpson.png"
-              className="ml-auto p-2"
+              src="src/assets/JackSimpson.png"
+              className=""
               thumbnail
             />
           </Col>
