@@ -36,7 +36,7 @@ function About() {
           <Col lg={true}></Col>
           <Col lg={true} className="p-2">
             <img
-              src="src/assets/JackSimpson.png"
+              src="/images/JackSimpson.png"
               className=""
               thumbnail
             />

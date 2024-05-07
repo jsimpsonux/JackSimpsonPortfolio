@@ -6,21 +6,21 @@ function Projects() {
   const data = [
     {
       title: "My Relaxing Planner",
-      image: "src/assets/relax.png",
+      image: "/images/relax.png",
       description: "A friendly planner that provides the user with a place to plan out their day, with helpful features for the user.",
       github: "https://github.com/jsimpsonux/my-relaxing-planner",
       link: "https://jsimpsonux.github.io/my-relaxing-planner/",
     },
     {
       title: "Ingredient Alchemy",
-      image: "src/assets/ingredient.png",
+      image: "/images/ingredient.png",
       description: "Ingredient Alchemy allows users to be as picky as they want and still find a recipe fit for them.",
       github: "https://github.com/jsimpsonux/Ingredient-Alchemy",
       link: "https://jsimpsonux.github.io/Ingredient-Alchemy/",
     },
     {
       title: "Crypto-Mock",
-      image: "src/assets/crypto.png",
+      image: "/images/crypto.png",
       description: "A crypto website that simulates real trading with the market, and provides users with a friendly inuitive design.",
       github: "https://github.com/jsimpsonux/Crypto-Mock",
       link: "https://resplendent-gumption-b3f3fe.netlify.app/",
