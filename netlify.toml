@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/projects"
+  to = "https://jack-simpson.netlify.app/projects"
+  status = 200
+  force = true
+
+
